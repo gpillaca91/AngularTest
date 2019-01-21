@@ -20,7 +20,7 @@ const routes: Routes = [
 
 @NgModule({
     // tslint:disable-next-line:no-trailing-whitespace
-    imports: [RouterModule.forRoot(routes)],
+    imports: [RouterModule.forRoot(routes,{ useHash:true })],
     exports : [ RouterModule ]
 })
 export class FeatureRoutingModule {
